@@ -19,7 +19,7 @@
  margin: 20px;
 }
 .hero{
- min-height: 450px;
+ min-height: auto;
  text-align: center;
 }
 section{
@@ -31,6 +31,9 @@ section{
 /* estilos generales */
 h1{
  font-size: 2.5rem;
+}
+p{
+    font-size: 1.5rem;
 }
 button.btn.btn-info {
   font-size: 1.1rem;
@@ -49,9 +52,7 @@ button.btn.btn-info {
  font-size: 1.5rem;
  color: rosybrown;
 }@media(max-width :480px){
-html{
-    width: 106% !important;;
-}
+
 p{
     font-size: 1rem;
 }
@@ -124,9 +125,7 @@ p{
 .badges{
  margin: 5px;
 }
-.proyectos-recientes{
- padding: 40px;
-}
+
 .texto-negro {
     color: black;
 }
