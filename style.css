@@ -48,19 +48,19 @@ button.btn.btn-info {
 .hero-principal h2 {
  font-size: 1.5rem;
  color: rosybrown;
+}@media(max-width :480px){
+html{
+    width: 106% !important;;
+}
+p{
+    font-size: 1rem;
+}
 }
 @media screen and (min-width: 700px) {
 .hero-inferior-imagen{
     max-width: 10px;
 }
-p{
-    font-size: 0.8rem;
-}
-.proyectos img {
- gap: 10px;
-    padding: 10px;
-   
-}
+
 }
 .seccion-oscura {
     color: white;
@@ -92,7 +92,7 @@ p{
     padding: 40px 40px 60px 40px;
 }
 .experiencia .row div {
-  height: 350px; 
+  height: 450px; 
 }
 .experiencia .columna {
   padding: 20px;
