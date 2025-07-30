@@ -137,6 +137,8 @@ p{
 .proyectos {
     position: relative;
     overflow: hidden;
+    width: 360px;
+    height: 400px;
 }
 
 .proyectos img {
@@ -236,14 +238,7 @@ footer{
     font-size: 1.5rem;
     transition: all 0.2s ease-in;
 }
-
-.proyectos{
-    width: 400px;
-    height: 400px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}body, html {
+body, html {
   width: 100%;
   overflow-x: hidden;
 }
